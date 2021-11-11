@@ -1,0 +1,131 @@
+/********** Body **********/
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #E5E5E5;
+}
+
+/*********** Header **********/
+
+header{
+    align-items: center;
+    background: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #F3F3F3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100px;
+    padding-left: 30px;
+    padding-right: 35px;
+}s
+
+header img{
+    max-height: 60px;
+    
+}
+
+header ul{
+    display: flex;    
+}
+
+header li{
+    padding: 13px;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;  
+}
+
+a:visited{
+    color: #F3F3F3;
+    
+}
+
+/********** SECTION *********/
+section{
+    display: flex;
+    justify-content: center;
+}
+
+
+/********* Container Left **********/
+
+#delivery{ 
+    margin-left: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    position: relative;
+}
+
+span{
+    color: #FC200C;
+    font-size: 24px;
+    font-weight: 700;
+    left: 1px;
+    margin:20px;
+    position: absolute;
+}
+
+#highlighText{
+    position: relative;
+    color: white;
+    margin: 0;
+}
+
+/********** Container right **********/
+
+#ranking{
+    background-color: #FFFFFF;
+    height: 350px;
+    margin-right: 20px;
+    margin-top: 30px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    width: 491px;
+}
+
+h2{
+    font-size: 24px; 
+    font-weight: bold;
+    color: #FC200C;
+    margin: 20px 155px 20px 155px;
+}
+
+h3{
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 40px;
+}
+
+#internalContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#ranking img {
+    margin-right: 60px;
+}
+
+/********** FOOTER *********/
+
+footer{
+    background: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #F3F3F3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+}
+
+footer img{
+    margin: 42px 35px;
+}
+
+
